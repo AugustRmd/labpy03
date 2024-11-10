@@ -59,3 +59,46 @@ Program untuk menghitung laba bulanan berdasarkan persentase yang telah ditentuk
 
 ## Contoh Output
 ![Output latihan2](output/output_latihan2.png)
+
+
+
+# Latihan3
+
+## Deskripsi Program
+Program ini merupakan simulasi ATM sederhana yang memungkinkan pengguna untuk melihat saldo, melakukan penarikan uang, atau keluar dari program. Program berjalan dalam loop sehingga pengguna dapat melakukan beberapa kali penarikan hingga saldo tidak mencukupi atau mereka memilih untuk keluar.
+
+## Alur Algoritma
+1. Inisialisasi data awal:
+   - `saldo` ditetapkan sebesar 1,000,000 sebagai saldo awal.
+
+2. Memasuki loop utama menggunakan `while True`:
+   - Menampilkan saldo saat ini.
+   - Menampilkan dua pilihan menu:
+     - **1. Tarik Uang**
+     - **2. Keluar**
+   - Meminta input pengguna untuk memilih opsi.
+
+3. Menangani pilihan pengguna:
+   - **Jika pilihan adalah 1 (Tarik Uang)**:
+     - Meminta pengguna memasukkan jumlah uang yang ingin ditarik.
+     - Mengecek apakah saldo cukup untuk penarikan:
+       - Jika saldo mencukupi, kurangi saldo sebesar jumlah yang dimasukkan.
+       - Jika saldo tidak mencukupi, tampilkan pesan "Saldo Anda Tidak Cukup".
+   - **Jika pilihan adalah 2 (Keluar)**:
+     - Menampilkan pesan "Terimakasih telah menggunakan ATM" dan menghentikan loop menggunakan `break`.
+
+4. Program berakhir setelah pengguna memilih untuk keluar.
+
+## Fungsi yang Digunakan
+- `while True`: Membuat loop tanpa batas hingga kondisi `break` terpenuhi.
+- `print()`: Menampilkan teks atau informasi ke layar.
+- `input()`: Mengambil input dari pengguna.
+- `int()`: Mengkonversi input string dari pengguna menjadi integer untuk operasi aritmatika.
+- `f-string`: Memformat teks yang akan ditampilkan, misalnya untuk menampilkan saldo dalam kalimat.
+
+## Contoh Output
+![Output latihan3](output/output_lathian3.png)
+
+
+
+
