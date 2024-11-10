@@ -97,7 +97,7 @@ Program ini merupakan simulasi ATM sederhana yang memungkinkan pengguna untuk me
 - `f-string`: Memformat teks yang akan ditampilkan, misalnya untuk menampilkan saldo dalam kalimat.
 
 ## Contoh Output
-![Output latihan3](output/output_lathian3.png)
+![Output latihan2](output/output_latihan3.png)
 
 
 
